@@ -1,0 +1,64 @@
+body {
+	background-color: #99ccff;
+}
+
+.center {
+	text-align: center;
+}
+
+.middle {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+	background-color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	padding: 15px;
+	font-size: 20px;
+	font-family: "Georgia", Times, serif
+}
+
+button:hover {
+	background-color: #e7e7e7;
+}
+
+.activityButton {
+	font-size: 45px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.uBored {
+	font-size: 50px;
+	font-family: "Georgia", Times, serif
+}
+
+footer {
+    float: bottom;
+    bottom: 0s;
+    margin: 5px;
+}
+
+button.interests {
+	border-radius: 12px;
+	border: 1px solid;
+	border-color: #99ccff;
+}
+
+#prev {
+	background-color: #99ccff;
+}
+
+#next {
+	background-color: #99ccff;
+}
+
+.space {
+	padding:80px;
+}

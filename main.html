@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Main Page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body class="center middle">
+		<script src="script.js"></script>
+		
+		<h1 id="activityName"><button class="activityButton" onclick="getActivity()">GET ACTIVITY SUGGESTIONS</button></h1>
+		<h3 id="activityLocation"></h3>
+		<image id="activityImage" height="120">
+		<p id = "activityDesc"></p>
+
+		<p id="prevNext" class="center"><button id="prev" onclick="decreaseCount(); getActivity()"></button>   <button id="next" onclick="getActivity()"></button></p>
+		
+	</body>
+	<footer>
+		<p class="bottom"><a href="interests.html"><button> < Go back to Interests</button></a></p>
+	</footer>
+</html>
